@@ -1,0 +1,20 @@
+### GET Books
+GET http://localhost:8888/api/v1/books
+
+
+### POST Books
+POST http://localhost:8888/api/v1/books
+Accept: application/json
+Content-Type: application/json
+
+{
+    "id": 10,
+    "title": "Gryphon. '--you.",
+    "author": "Rosalia Bode",
+    "genre": "Molestiae",
+    "description": "CHAPTER IV. The Rabbit started violently, dropped the white kid gloves in one hand and a Canary called out as loud as she spoke; 'either you or your head must be a very truthful child; 'but little.",
+    "isbn": "9784713971963",
+    "image": "http://placeimg.com/480/640/any",
+    "published": "1979-07-03",
+    "publisher": "Quam Optio"
+  }
